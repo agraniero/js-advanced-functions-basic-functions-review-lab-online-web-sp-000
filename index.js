@@ -8,6 +8,6 @@ var mondayWork = function(activity='go to the office'){
 
 var wrapAdjective = function(boopity='*'){
   return function(boop='special'){
-    return `You are ${boopity}${boop}${boopity}
-  }
-}
+    return `You are ${boopity}${boop}${boopity}!`;
+  };
+};
