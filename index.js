@@ -12,3 +12,9 @@ var wrapAdjective = function(boopity='*'){
   };
 };
 
+var Calculator={
+  add: (a,b) => a+b,
+  subract: (a,b) => a-b,
+  multiply: (a,b) => a*b,
+  divide: (a,b) => a/b
+};
