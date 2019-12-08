@@ -7,7 +7,7 @@ var mondayWork = function(activity='go to the office'){
 };
 
 var wrapAdjective = function(boopity='*'){
-  return function(adjective='special'){
-    return `You are ${boopity}${adjective
+  return function(boop='special'){
+    return `You are ${boopity}${boop}${boopity}
   }
 }
