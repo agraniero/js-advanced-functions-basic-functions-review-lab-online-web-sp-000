@@ -18,3 +18,12 @@ var Calculator={
   multiply: (a,b) => a*b,
   divide: (a,b) => a/b
 };
+
+var actionApplyer = function(start, ray){
+  let boo = start;
+  for (let i=0; i<ray.length; i++){
+    boo=ray[i](boo);
+  }
+  return boo;
+};
+  
